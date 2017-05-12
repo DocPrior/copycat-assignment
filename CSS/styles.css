@@ -29,6 +29,14 @@ img {
   max-width: 100%;
 }
 
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 2px;
+}
+
 .logo {
   float: left;
   line-height: 60px;
