@@ -18,6 +18,7 @@ header {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 div {
@@ -71,13 +72,34 @@ img {
   text-align: center;
 }
 
+.call-to-action {
+  background-color: #FFD166;
+}
+
+.products {
+  background-color: #F2F2F2;
+}
+
+.product-wrapper {
+  overflow: hidden;
+}
+
 .hero-content > h2 {
   border: 0;
   display: inline-block;
   padding-bottom: 5px;
 }
 
-.call-to-action {
-  background-color: #FFD166;
+.product-item {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.product-item > img {
+  border: 3px solid black;
+}
+
+.call-to-action, .products, .about {
   padding: 30px 20px;
 }
