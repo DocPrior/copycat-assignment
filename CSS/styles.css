@@ -84,6 +84,23 @@ img {
   overflow: hidden;
 }
 
+.about {
+  background-color: #26547C;
+  color: white;
+}
+
+.team {
+  overflow: hidden;
+}
+
+.team-fun, .team-values, .team-meow {
+  float: left;
+  width: 33.33%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
+
 .hero-content > h2 {
   border: 0;
   display: inline-block;
