@@ -76,3 +76,8 @@ img {
   display: inline-block;
   padding-bottom: 5px;
 }
+
+.call-to-action {
+  background-color: #FFD166;
+  padding: 30px 20px;
+}
