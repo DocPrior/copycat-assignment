@@ -1,3 +1,41 @@
- body {
-   background-color: purple;
- }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+header {
+  background-color: #06D6A0;
+  padding: 0 20px;
+  text-align: center;
+  overflow: hidden;
+  height: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  line-height: 60px;
+  font-size: 18px;
+  margin: 0;
+  color: white;
+}
+
+.navbar {
+  float: right;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
